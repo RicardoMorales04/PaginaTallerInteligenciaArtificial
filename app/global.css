@@ -61,7 +61,7 @@ body {
   
   .search-input {
     padding: 8px;
-    border-radius: 10px 0 0 10px; /* Radio en el lado derecho */
+    border-radius: 10px 0 0 10px;
     border: 1px solid #ccc;
   }
   
@@ -98,8 +98,8 @@ body {
   .mini-menu {
     background-color: #017C77;
     padding: 10px 0;
-    width: 100%; /* Ajuste para que el mini-menú ocupe todo el ancho */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente de letra bonita */
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .mini-menu ul {
@@ -111,7 +111,7 @@ body {
   
   .mini-menu ul li {
     display: inline-block;
-    margin-right: 400px; /* Reduje el espacio entre elementos */
+    margin-right: 400px;
   }
   
   .mini-menu ul li:last-child {
@@ -122,12 +122,51 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
-    font-weight: bold; /* Fuente en negritas */
-    transition: all 0.3s ease; /* Transición suave al pasar el ratón */
+    font-weight: bold;
+    transition: all 0.3s ease;
   }
   
   .mini-menu ul li a:hover {
     text-decoration: underline;
-    color: #d6faff; /* Cambio de color al pasar el ratón */
+    color: #d6faff;
   }
   
+  .contenedor-mapa {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion p {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.aviso-privacidad {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.aviso-privacidad a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.aviso-privacidad a:hover {
+    text-decoration: none !important;
+}

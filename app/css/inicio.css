@@ -8,17 +8,11 @@ body {
 
 .contenedor-blanco {
     width: 1200px;
-    /* Ancho de la tarjeta */
     height: 1100px;
-    /* Altura automática basada en el contenido */
     margin: 10px auto;
-    /* Margen de 10px en todos los lados, centrado horizontalmente */
     background-color: #ffffff;
-    /* Color de fondo blanco */
     border-radius: 40px;
-    /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Sombra suave */
 }
 
 .contenedor-blanco p {
@@ -27,29 +21,23 @@ body {
     font-size: 1.5rem;
     line-height: 1.4;
     margin: 0 10px;
-    /* Margen de 0 en la parte superior e inferior, 10px en los lados */
 }
 
 .contenedor-blanco h4 {
     font-weight: bold;
-    /* Texto en negrita */
 }
 
 .contenedor-img {
     background-color: #00A789;
     width: 1200px;
-    /* Hace que la imagen llene el contenedor */
     height: 400px;
     border-radius: 10px 10px 0px 0px;
-    /* Bordes redondeados para la imagen */
 }
 
 .contenedor-img img {
     width: 1200px;
-    /* Hace que la imagen llene el contenedor */
     height: 370px;
     margin: 10px 0;
-    /* Margen de 10px en la parte superior e inferior, 0 en los lados */
 }
 
 .contenedor-blanco p {
@@ -67,50 +55,4 @@ body {
     border-bottom: 2px solid #002855;
     padding-bottom: 5px;
     font-size: 1.8rem;
-}
-
-.contenedor-mapa {
-    border-radius: 20px;
-    overflow: hidden;
-    width: 600px;
-    height: 300px;
-    margin: 20px auto;
-    /* Establece el margen superior e inferior a 20px y automáticamente ajusta los márgenes laterales para centrar */
-    display: flex;
-    /* Utiliza flexbox */
-    justify-content: center;
-    /* Centra horizontalmente el contenido */
-    align-items: center;
-    /* Centra verticalmente el contenido */
-}
-
-.direccion {
-    display: flex;
-    justify-content: center;
-    /* Centrado horizontal */
-    align-items: center;
-    /* Centrado vertical */
-}
-
-.direccion p {
-    color: #ffffff;
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-.aviso-privacidad {
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    padding: 1.5rem 0;
-}
-
-.aviso-privacidad a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.aviso-privacidad a:hover {
-    text-decoration: none !important;
 }
