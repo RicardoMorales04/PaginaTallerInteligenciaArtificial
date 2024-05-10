@@ -8,7 +8,7 @@ export default function Registro(){
                 <thead>
                     <tr>
                         <th>Profesor</th>
-                        <th>Taller</th>
+                        <th>Proyecto</th>
                         <th>Horario</th>
                         <th>Formulario</th>
                     </tr>
@@ -16,15 +16,15 @@ export default function Registro(){
                 <tbody>
                     <tr>
                         <td>Profesor 1</td>
-                        <td>Taller de HTML</td>
+                        <td>Proyecto reconocimiento facial</td>
                         <td>Lunes 9:00 - 11:00</td>
-                        <td><a href="link_al_formulario">Registrarse</a></td>
+                        <td><a href="http://localhost:3000/registro/formulario">Registrarse</a></td>
                     </tr>
                     <tr>
                         <td>Profesor 2</td>
-                        <td>Taller de CSS</td>
+                        <td>Proyecto IA</td>
                         <td>Miércoles 14:00 - 16:00</td>
-                        <td><a href="link_al_formulario">Registrarse</a></td>
+                        <td><a href="http://localhost:3000/registro/formulario">Registrarse</a></td>
                     </tr>
                 </tbody>
             </table>
